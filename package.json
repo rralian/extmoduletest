@@ -1,0 +1,17 @@
+{
+	"name": "i18n",
+	"version": "0.0.1",
+	"private": true,
+	"main": "index.js",
+	"dependencies": {
+		"xgettext-js": "0.2.0",
+		"commander": "2.3.0"
+	},
+	"engines": {
+		"node": ">=0.8"
+	},
+	"devDependencies": {},
+	"bin": {
+		"get-i18n": "./bin/i18n-cli.js"
+	}
+}
